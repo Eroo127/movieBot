@@ -2,7 +2,7 @@
 const BootBot = require('bootbot');
 const config = require('config');
 const fetch = require('node-fetch');
-var apiKey='9a32bccc0995a38d7c700d0b4fa8a79d'; //TMDB api key
+var apiKey='Your Api Key'; //TMDB api key
 var movieRecommendation = 'https://api.themoviedb.org/3/discover/movie?api_key='+apiKey+'&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres='; //API request to get the recommendation
 
 //New bot with our facebook app details
